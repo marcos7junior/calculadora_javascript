@@ -9,7 +9,7 @@ buttons.map(button => {
                 break
             case "←":
                 if(display.innerText){
-                    displayinnerText = display.innerText.slice(0, -1)
+                    displayinnerText += display.innerText.slice(0, -1)
                 }
             case "=":
                 try{
